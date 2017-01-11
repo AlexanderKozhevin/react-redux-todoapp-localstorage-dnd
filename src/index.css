@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, rgba(255,241,242,1) 0%, rgba(255,197,206,1) 100%);
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+
+textarea:focus, input:focus, button:focus, li:focus, a:focus, select:focus, md-icon:focus, div:focus{
+  outline: none;
+}
+input{
+  border: none;
+  border-bottom: 1px solid rgba(130,130,130,0.5);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: center;
+  transition: all 0.2s;
+}
+input:focus{
+  border-bottom: 1px solid rgba(255,197,206,1);
+}
+::selection {
+  background: rgba(255,197,206,1); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: rgba(255,197,206,1); /* Gecko Browsers */
+}
+/*
+-webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;*/
